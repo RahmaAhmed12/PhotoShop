@@ -1,0 +1,84 @@
+p{
+    text-align: center;
+    color:rgb(171, 207, 218);
+  }
+  body{
+      background-image: url(/imges/feedback.jpg);
+      background-size:  cover;
+      
+  }
+  
+  .section h1 {
+      text-align: center;
+      color:rgb(255, 255, 255);
+  }
+  .block{
+      width: 100px ;
+      height: 10px ;
+      margin: 40px auto;
+  }
+  .form{
+      max-width: 600px ;
+      margin: auto;
+      padding: 0 10px;
+      overflow: hidden;
+      
+  }
+  .contact1{
+      display: block;
+      width: 600px ;
+      box-sizing: border-box;
+      margin: 16px 0 ;
+      border: 0 ;
+      background:black;
+      padding: 20px 40px;
+      outline: none;
+      color:antiquewhite ;
+      transition: 0.5s;
+      border-radius: 13px;
+  }
+  .contact1:focus{
+      box-shadow:0 0 10px 4px steelblue;
+  }
+  .contact2{
+      resize: none;
+      width: 600px;
+      height: 120px;
+      background-color:rgb(11, 11, 12);
+      color: cornsilk;
+      
+  }
+  .contact2:focus{
+      box-shadow: steelblue;
+  }
+  
+  
+  a {
+      position:relative;
+      left:460px;
+      display: inline-block;
+      padding:20px 50px;
+      color: #fdfdff;
+      margin-right: 38px;
+      letter-spacing: 4px;
+      text-decoration: none;
+      font-size: 40px;
+      overflow: hidden;
+      transition: 0.2s;
+      border-radius: 50px;
+      margin-top: 20px;
+      width: 500px;
+      text-align: center;
+      border: 2px solid steelblue;
+      
+  
+  }
+  a:hover {
+      color: white;
+      background: steelblue;
+      box-shadow: 0 0 10px steelblue, 0 0 40px steelblue, 0 0 80px steelblue;
+      transition-delay: 0.1s; 
+      letter-spacing: 10px;
+  
+  
+  }

@@ -1,0 +1,100 @@
+
+body{
+    background-image:url(/imges/background3\ \(2\).jpg);
+    overflow-x : hidden ;
+}
+
+.header{
+    font-size: 60px;
+    font-style: oblique;
+    color: #ffffff;
+    padding: 2px;
+    text-indent:600px;
+}
+.header:hover{
+    color: #1c3af8;
+}
+.w {
+        font-size: 60px;
+        font-style: oblique;
+        color: #1c3af8;
+        padding: 2px;
+        position: relative;
+        left: 811px;
+        top: -112px;
+
+}
+.w:hover{
+    color: white;
+}
+    
+
+.header span{
+    color: #1c3af8;
+}
+
+hr{
+    position: absolute;
+    top: 156px;
+    left: 307px;
+    width: 915px;
+   color: white;
+}
+
+ 
+
+.card .box .imgbox img {
+    width: 250px;
+    height: 350px;
+    margin: 60px;
+    padding: auto;
+    float: left;
+    border: 6px black solid;
+    border-radius: 14px;
+    box-sizing: border-box;
+    box-shadow:10px 10px 30px #192a989c;
+}
+
+
+
+
+a {
+    position: relative;
+    left: 500px;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #192a98;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 15px;
+    overflow: hidden;
+    transition: 0.2s;
+    border-radius: 20px;
+}
+a:hover {
+    color: white;
+    background: #192a98;
+    box-shadow: 0 0 10px #192a98, 0 0 40px #192a98, 0 0 80px #192a98;
+    transition-delay: 0.3s; 
+}
+.b {
+    position: relative;
+    left: 650px;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #192a98;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 15px;
+    overflow: hidden;
+    transition: 0.2s;
+    border-radius: 20px;
+}
+.b:hover {
+    color: white;
+    background: #3c3d42;
+    box-shadow: 0 0 5px #7e7676, 0 0 20px #7e7676, 0 0 40px #7e7676;
+    transition-delay: 0.3s; 
+}
