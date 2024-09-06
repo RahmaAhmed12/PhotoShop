@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhotoShop</title>
+    <link rel="stylesheet" href="css/admin.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"> <span class="Ln"> p</span>HOTO<span class="Ln">s</span>HOP <span class="Ln">.</span></a>
+        <div class="menuToggle" onclick="toggleMenu();"></div>
+        <ul class="nav">
+            <li><a href="#banner" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="index.html" onclick="toggleMenu();">See More...</a></li>
+            <li><a href="#testimonials" onclick="toggleMenu();">Testimonials</a></li>
+            <li><a href="login.html" onclick="toggleMenu();">Logout</a></li>
+            <li><a href="regest.html" onclick="toggleMenu();">Regist</a></li>
+            <li><a href="feedback.html" onclick="toggleMenu();">FeedBack</a></li>
+        </ul>
+    </header>
+<div class="slider" id="banner">
+    <div class="myslider fade" style="display: block;">
+        <div class="txt">
+        <h1>PhotoShop</h1>
+        <p>We Make What Is Worth It .</p>
+    </div>
+        <img src="/imges/pexels-nathalie-payares-4929994 (1).jpg" width="100%" height="100%">
+    </div>
+    <div class="myslider fade">
+        <div class="txt">
+            <h1>PhotoShop</h1>
+            <p>We Make What Is Worth It . </p>
+        </div>
+        <img src="/imges/pexels-andrew-neel-4134784.jpg" width="100%" height="100%">
+    </div>
+    <div class="myslider fade">
+        <div class="txt">
+            <h1>PhotoShop</h1>
+            <p>We Make What Is Worth It . </p>
+        </div>
+        <img src="/imges/pexels-cottonbro-5054213.jpg" width="100%" height="100%">
+    </div>
+    <a  class="P" onclick="plusSlides(-1)">&#10094</a>
+    <a  class="N" onclick="plusSlides(1)">&#10095</a>
+    <div class="DB" style="text-align: center;">
+    <span class="D" onclick="currentSlide(1)"></span>
+    <span class="D" onclick="currentSlide(2)"></span>
+    <span class="D" onclick="currentSlide(3)"></span>
+
+</div>
+</div>
+<section class="about" id="about">
+    <div class="row">
+        <div class="col50">
+            <h2 class="titleText"><span>A</span>bout Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debiti Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem nihil provident doloremque ducimus aliquid et praesentium? Consectetur natus velit dignissimos, maxime dolorum iure. Accusamus velit placeat voluptatem earum numquam inventore? s facilis quam veritatis sunt ratione corporis consequuntur, quasi deserunt distinctio quo repellendus ut rem temporibus sapiente necessitatibus, officia error. Aliquid, officiis. <br><br>Lorem ipsum dolor sit Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis libero doloribus expedita perspiciatis neque at ullam culpa optio quae distinctio! Dolore inventore vitae hic? Nisi sunt cumque commodi atque exercitationem? amet consectetur adipisicing elit. Iure nemo quos optio quia enim, harum culpa, obcaecati tenetur necessitatibus nua deleniti impedit non illum?</p>
+        </div>
+        <div class="col50">
+            <div class="imgBx">
+                <img src="/imges/pexels-nathan-salt-3260921.jpg">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="menu" id="menu">
+    <div class="title">
+        <h2 class="titleText">Our <span>W</span>ork</h2>
+        <p>What WE Make Speaks For Us .</p>
+    </div>
+    <div class="content">
+        <div class="box">
+            <div class="imgBx">
+                <img class="img1" src="/imges/pexels-rakicevic-nenad-744667.jpg">
+            </div>
+            <div class="text">
+                <h3>30$</h3>
+                <button id="btn1">Next</button>
+                <button id="btn11">Back</button> 
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img class="img2" src="/imges/pexels-sarah-trummer-955793.jpg">
+            </div>
+            <div class="text">
+                <h3>20$ </h3>
+                <button id="btn2">Next</button>
+                <button id="btn22">Back</button>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img class="img3" src="/imges/pexels-isaac-pollock-3841778.jpg">
+            </div>
+            <div class="text">
+                <h3>20$ </h3>
+                <button id="btn3">Next</button>
+                <button id="btn33">Back</button>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img class="img4" src="/imges/pexels-musa-ortaç-3540186 (1).jpg">
+            </div>
+            <div class="text">
+                <h3>20$ </h3>
+                <button id="btn4">Next</button>
+                <button id="btn44">Back</button>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img class="img5" src="/imges/pexels-ash-cork-3080532.jpg">
+            </div>
+            <div class="text">
+                <h3>40$ </h3>
+                <button id="btn5">Next</button>
+                <button id="btn55">Back</button>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img class="img6" src="/imges/pexels-divya-jain-8624624.jpg">
+            </div>
+            <div class="text">
+                <h3>60$ </h3>
+                <button id="btn6">Next</button>
+                <button id="btn66">Back</button>
+            </div>
+        </div>
+    </div>
+    <div class="title">
+        <a href="index.html" class="btn">View All</a>
+    </div>
+</section>
+
+<section class="testimonials" id="testimonials">
+    <div class="title White">
+        <h2 class="titleText">W<span>e</span>  are </h2>
+        <p>Our FeedBack Always Positive So Carry On.</p>
+    </div>
+    <div class="content2 sec">
+        <div class="Card">
+            <div class="toggle"><i class="fa fa-moon-o" aria-hidden="true"></i></div>
+            <div class="C">
+                <div class="imgTex">
+                    <div class="imgB">
+                        <img src="/imges/ahmedgalal.jpg" alt="">
+                    </div>
+                    <h3>Ahmed Galal <br><span>Wep Developer</span></h3>
+                    <ul class="sci">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></a></i></li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="Card">
+            <div class="C">
+                <div class="imgTex">
+                    <div class="imgB">
+                        <img src="/imges/nono.jpg" alt="">
+                    </div>
+                    <h3>nabila<br><span>Wep Developer</span></h3>
+                    <ul class="sci">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="Card">
+            <div class="C">
+                <div class="imgTex">
+                    <div class="imgB">
+                        <img src="/imges/rahma.jpg" alt="">
+                    </div>
+                    <h3>Rahma Ahmed <br><span>Wep Developer</span></h3>
+                    <ul class="sci">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="Card">
+            <div class="C">
+                <div class="imgTex">
+                    <div class="imgB">
+                        <img src="/imges/alaa.jpg" alt="">
+                    </div>
+                    <h3>alaa  <br><span>Wep Developer</span></h3>
+                    <ul class="sci">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="Card">
+            <div class="C">
+                <div class="imgTex">
+                    <div class="imgB">
+                        <img src="/imges/ahmedhany.jpg" alt="">
+                    </div>
+                    <h3>Ahmed hany <br><span>Wep Developer</span></h3>
+                    <ul class="sci">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const sec = document.querySelector('.sec');
+        const toggle = document.querySelector('.toggle');
+        toggle.onclick = function(){
+            sec.classList.toggle('dark')
+        }
+    </script>
+</section>
+<div class="copyrightText">
+    <p> &copy; Copyright 2020 <a href="#" class="s3">PhotoShop</a> , All Right Reseved  </p>
+</div>
+    <script type="text/javascript">
+        window.addEventListener('scroll',function(){
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky",window.scrollY > 0);
+        }) ;
+
+        function toggleMenu(){
+            const menuToggle = document.querySelector('.menuToggle');
+            const nav = document.querySelector('.nav');
+            menuToggle.classList.toggle('active');
+            nav.classList.toggle('active');
+        }
+    </script>
+    <script src="admin.js"></script>
+</body>
+</html>
